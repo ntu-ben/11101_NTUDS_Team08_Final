@@ -1,12 +1,4 @@
-word_freq = {
-"Hello": 56,
-"at": 23,
-"test": 43,
-"this": 78
-}
- 
-key = 'sample'
-if word_freq.get(key) is not None:
-    print(":)")
-else:
-    print(":<")
+test = [1,2,3,4,5]
+test = test[::-1]
+print(test)
+print(test[-1])
